@@ -19,8 +19,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: 
-- Live Site URL: 
+- Solution URL: https://github.com/Darionas/interactive-rating-component
+- Live Site URL: https://darionas.github.io/interactive-rating-component/
 
 ## My process
 
