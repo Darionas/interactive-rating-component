@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Frontend Mentor | Interactive rating component</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="keywords" content="Interactive rating." />
+  <meta name="description" content="Please let us know how we did with your support request. All feedback is 
+  appreciated to help us improve our offering!" />
+  <meta name="author" content="Darius" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/Overpass" />
+  <link rel="stylesheet" href="main.css" />
+  <script src="main.js"></script>
+</head>
+<body>
+  <div class="content">
+    <main class="container1">
+      <p class="starCont"><img class="star" src="images/icon-star.svg" alt="Star icon" /></p>
+      <h1>How did we do?</h1>
+      <p class="para">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+      <div id="numCont">
+      <button id="n1" onclick="myId(this.id)" class="num" value="1">1</button>
+      <button id="n2" onclick="myId(this.id)" class="num" value="2">2</button>
+      <button id="n3" onclick="myId(this.id)" class="num" value="3">3</button>
+      <button id="n4" onclick="myId(this.id)" class="num" value="4">4</button>
+      <button id="n5" onclick="myId(this.id)" class="num" value="5">5</button>
+      </div>
+      <button id="btn" onclick="hido()">SUBMIT</button>
+    </main>
+    <main class="container2">
+      <img class="thank" src="images/illustration-thank-you.svg" alt="Thank you icon" />
+      <p class="para eval">You select <span id="res"></span> out of 5</p>
+      <h1 class="cen">Thank you!</h1>
+      <p class="para cen">We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!</p>
+    </main>
+    <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">@Darionas</a>.
+  </div>
+  </div>
+  
+
+</body>
+</html>

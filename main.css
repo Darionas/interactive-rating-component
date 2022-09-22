@@ -1,0 +1,155 @@
+* {box-sizing: border-box;}
+
+.attribution { font-size: 11px;
+    position: absolute;
+    bottom: 0px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: hsl(217, 12%, 63%);
+}
+
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.content { 
+    position: absolute;
+    inset: 0px; 
+    background-color: hsl(216, 12%, 8%);
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container1 {
+    border: none;
+    border-radius: 6%;
+    max-width: 22.6875rem;
+    height: 20.625rem;
+    background-color: hsl(215, 22%, 15%);
+    padding: 1.25rem;  
+    margin: 0rem;  
+}
+
+.container2 {
+    display: none;
+    border: none;
+    border-radius: 6%;
+    max-width: 22.6875rem;
+    height: 20.625rem;
+    background-color: hsl(215, 22%, 15%);
+    padding: 1.25rem;  
+    margin: 0rem;
+    text-align: center;  
+}
+
+.starCont {
+    border: none;
+    border-radius: 50%;
+    background-color: hsl(215, 18%, 19%);
+    width: 2.1875rem;
+    height: 2.1875rem;
+    margin: 0rem;
+    padding: 0rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.star {
+    max-width: 0.8125rem;
+    height: auto;
+}
+
+h1 {
+    font: 700 18px Overpass, Arial, sans-serif;
+    padding: 10px 0px 0px;
+    text-align: left;
+    color: hsl(0, 0%, 100%);
+}
+
+.para {
+    font: 400 15px Overpass, Arial, sans-serif;
+    padding: 0 0 0.625rem;
+    color: hsl(217, 12%, 63%);
+    text-align: left;
+}
+
+button {
+    font: 400 15px Overpass, Arial, sans-serif;
+}
+
+#numCont {
+    display: inline-block;
+    padding: 0 0 0.625rem;
+}
+
+.num {
+    border: none;
+    border-radius: 50%;
+    background-color: hsl(215, 18%, 19%);
+    max-width: 2.375rem;
+    width: 2.375rem;
+    height: 2.375rem;
+    margin: 0.6875rem;
+    padding: 0rem;
+    text-align: center;
+    color: hsl(217, 12%, 63%);
+    cursor: pointer;
+}
+
+.num:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+}
+
+#btn {
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    color: hsl(0, 0%, 100%);
+    margin-inline: auto;
+    display: flex;
+    justify-content: center;
+    width: 19.75rem;
+    margin: 0rem;
+    padding: 0.625rem;
+    border-radius: 1.25rem;
+    cursor: pointer;
+    letter-spacing: 0.1875rem;
+}
+
+
+#btn:hover {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
+
+.active {
+    background-color: hsl(216, 12%, 54%);
+    color: hsl(0, 0%, 100%);
+}
+
+.eval {
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(215, 18%, 19%);
+    padding: 0.1875rem;
+    margin-inline: auto;
+    border: none;
+    border-radius: 1.25rem;
+    width: 10.625rem;
+}
+
+.cen {text-align: center;}
+
+.thank {
+    padding-top: 1.25rem;
+    width: 7.5rem;
+    height: auto;
+}
