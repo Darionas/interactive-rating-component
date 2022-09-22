@@ -20,7 +20,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: https://github.com/Darionas/interactive-rating-component
-- Live Site URL: 
+- Live Site URL: https://darionas.github.io/interactive-rating-component/
 
 ## My process
 
