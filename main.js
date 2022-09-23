@@ -13,7 +13,7 @@ function myId(clicked_id) {
 
      if (!isButton) return;
 
-     // remove .active class form button
+     // remove .active class from button
      prevButton?.classList.remove('active');
 
      if (isButton) {
