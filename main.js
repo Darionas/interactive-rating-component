@@ -1,35 +1,28 @@
 "use strict"
 
 let num;
+let prevButton;
+const numCont = document.getElementById('numCont');
+
 function myId(clicked_id) {
-  //return button value
-   num = document.getElementById(clicked_id).value;
+  // returns button value
+  num = document.getElementById(clicked_id).value;
 
-   let prevButton = null;
+  numCont.addEventListener('click', (e) => {
+    const isButton = e.target.nodeName === 'BUTTON';
 
-   const numCont = document.getElementById("numCont");
-if(numCont) {
-   numCont.addEventListener("click", (e) => {
+     if (!isButton) return;
 
-   const isButton = e.target.nodeName === "BUTTON"; 
-if (isButton) {
-   // Add .active CSS Class
-   e.target.classList.add("active");
-  }
+     // remove .active class form button
+     prevButton?.classList.remove('active');
 
-if (!isButton) {
-    return;
-  }
- 
-if(prevButton !== null) {
-  // Remove .active CSS Class
-    prevButton.classList.remove("active");
-  }
-  
-  prevButton = e.target;
+     if (isButton) {
+      // add .active class to button
+      e.target.classList.add('active');
+    }
 
-   });
-  }
+    prevButton = e.target;
+  })
 }
 
 
